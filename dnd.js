@@ -1,0 +1,2 @@
+$(window.iFrameHTML.contentDocument).find( window.iFrameHTML.contentDocument.getElementById('mark')).draggable({opacity: 1.0, cursor: "move", cursorAt: { top: 26, left: 26 }});$(window.iFrameHTML.contentDocument).find( window.iFrameHTML.contentDocument.getElementById('mark')).click(function(e){
+          this.style.marginLeft=- parseInt($(iFrameHTML).position().top); this.style.x=- parseInt($(iFrameHTML).position().left);setTimeout("var gl=window.document.getElementById('glass');gl.style.display='block';",25);});
